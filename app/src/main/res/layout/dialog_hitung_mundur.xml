@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_bg_circle15dp"
+    android:paddingVertical="50dp"
+    android:paddingHorizontal="100dp">
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/typoSuperBig"
+        android:textColor="@color/teal_200"
+        android:text="5"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

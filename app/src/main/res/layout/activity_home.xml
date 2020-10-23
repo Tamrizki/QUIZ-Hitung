@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.homePage.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="30dp">
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mulai Bermain"
+            android:paddingVertical="15dp"
+            android:layout_marginVertical="5dp"/>
+        <Button
+            android:id="@+id/btnLearn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Materi"
+            android:paddingVertical="15dp"
+            android:layout_marginVertical="5dp"/>
+        <Button
+            android:id="@+id/btnPanduan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Panduan"
+            android:paddingVertical="15dp"
+            android:layout_marginVertical="5dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/custom_bg_circle15dp"
+    android:padding="20dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_banned"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waduh, jawaban salah"
+        style="@style/typoMiddle"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="15dp"
+        android:textColor="@color/black"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnKembali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            style="@style/typoSmall"
+            />
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Main Lagi"
+            android:layout_gravity="right"
+            style="@style/typoSmallBold"
+            android:paddingHorizontal="15dp"
+            android:layout_marginStart="25dp"
+            android:textColor="@color/white"
+            android:background="@color/teal_200"
+            />
+    </LinearLayout>
+</LinearLayout>
